@@ -8,5 +8,5 @@ class LiqMatrixCore:
         print("core loaded")
 
     def run_data_receiving(self):
-        self.receiving.run_datastream_from_server()
+        self.receiving.run_trades_datastream_from_server()
 

@@ -22,13 +22,12 @@ class LiqMatrix:
         self.core.run_data_receiving()
 
 
+if __name__ == '__main__':
 
+    root = Tk()
+    root.title("Liquidity Matrix")
+    root.geometry("600x800")
 
+    liq_gui = LiqMatrix(master=root)
 
-root = Tk()
-root.title("Liquidity Matrix")
-root.geometry("400x200")
-
-liq_gui = LiqMatrix(master=root)
-
-root.mainloop()
+    root.mainloop()
